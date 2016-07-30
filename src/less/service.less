@@ -65,13 +65,15 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 
 .service__header-text {
   font-weight: 900;
   font-size: 24px;
   line-height: 45px;
-  color: #454546;
+  color: @gray;
   margin: 0;
   text-align: center;
 
@@ -92,7 +94,7 @@
   }
   .service__text {
     font-weight: 300;
-    color: #454546;
+    color: @gray;
   }
   .block-development__iamge {
     background-position: -493px 0;
@@ -130,11 +132,17 @@
   font-size: 30px;
   line-height: 36px;
   margin-bottom: 45px;
+  color: @gray;
 }
 .service__header--slogan--color {
   color: @global-main-color;
 }
 .service__header {
+  .container();
   padding-top: 60px;
   margin-bottom: 75px;
+}
+
+.service__blocks .block:nth-child(3n+3) {
+  margin-right: 0;
 }

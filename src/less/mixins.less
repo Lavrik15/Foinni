@@ -1,6 +1,11 @@
 .container() {
   margin: 0 auto;
-  width: 1209px;
+  @media @tablet-widths {
+    width: 680px;
+  }
+  @media @desktop-widths {
+    width: 1168px;
+  }
 }
 
 .clearfix() {
