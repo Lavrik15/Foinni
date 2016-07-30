@@ -1,0 +1,93 @@
+.page-header {
+  background: url(../img/bg-page-header.jpg) no-repeat 50% 50%;
+  min-height: 800px;
+  &__container {
+    .container();
+    .clearfix();
+  }
+  &__logo {
+    display: block;
+    float: left;
+  }
+  &__menu {
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    & li {
+      display: inline-block;
+      vertical-align: top;
+      list-style: none;
+      text-transform: uppercase;
+      margin-right: 43px;
+      & a {
+        display: block;
+        font-size: 14px;
+        line-height: 36px;
+        font-weight: 300;
+        text-decoration: none;
+        color: white;
+        &:hover {
+          color: @global-main-color;
+          border-bottom: 1px solid @global-main-color;
+        }
+      }
+    }
+  }
+  &__wrapper-menu {
+    min-height: 120px;
+    border-bottom: 1px solid #4b4a4b;
+    box-sizing: border-box;
+    padding-top: 44px;
+    padding-bottom: 42px;
+    margin-bottom: 265px;
+  }
+  &__slogan {
+    text-align: center;
+    &--1{
+      font-family: 'Exo', sans-serif;
+      font-weight: 400;
+      color: white;
+      font-size: 48px;
+      line-height: 36px;
+    }
+    &--2 {
+      font-family: 'Exo', sans-serif;
+      font-weight: 400;
+      color: white;
+      font-size: 48px;
+      line-height: 36px;
+    }
+    &--3 {
+      font-family: 'Exo', sans-serif;
+      font-weight: 900;
+      color: white;
+      font-size: 48px;
+      line-height: 36px;
+      color: @global-main-color;
+      text-transform: uppercase;
+    }
+    &--4 {
+      font-family: 'Exo', sans-serif;
+      font-weight: 500;
+      color: white;
+      font-size: 48px;
+      line-height: 36px;
+      color: white;
+    }
+    &-wrapper {
+      margin-bottom: 56px;
+    }
+  }
+  &__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin: 0px;
+    max-width: 916px;
+    margin:0 auto;
+  }
+}

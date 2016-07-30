@@ -1,0 +1,76 @@
+.CODE, .CODE-hover, .IMAC, .IMAC-hover, .VIEW, .VIEW-hover, .WIFI, .WIFI-hover, .BRIGHTNESS-_ HIGH, .BRIGHTNESS-_ HIGH-hover, .CAMERA, .CAMERA-hover{
+	background: url(sprites.png) no-repeat;
+}
+
+.CODE{
+	background-position: -540px -1px ;
+	width: 38px;
+	height: 29px;
+}
+
+.CODE-hover{
+	background-position: -493px 0;
+	width: 38px;
+	height: 29px;
+}
+
+.IMAC{
+	background-position: -444px 0;
+	width: 30px;
+	height: 28px;
+}
+
+.IMAC-hover{
+	background-position: -403px 0;
+	width: 30px;
+	height: 28px;
+}
+
+.VIEW{
+	background-position: -353px -6px ;
+	width: 35px;
+	height: 20px;
+}
+
+.VIEW-hover{
+	background-position: -299px -4px ;
+	width: 35px;
+	height: 20px;
+}
+
+.WIFI{
+	background-position: -256px -3px ;
+	width: 32px;
+	height: 29px;
+}
+
+.WIFI-hover{
+	background-position: -201px -2px ;
+	width: 32px;
+	height: 29px;
+}
+
+.BRIGHTNESS-_ HIGH{
+	background-position: -146px -3px ;
+	width: 32px;
+	height: 32px;
+}
+
+.BRIGHTNESS-_ HIGH-hover{
+	background-position: -99px -3px ;
+	width: 32px;
+	height: 32px;
+}
+
+.CAMERA{
+	background-position: -54px -2px ;
+	width: 32px;
+	height: 26px;
+}
+
+.CAMERA-hover{
+	background-position: 0 -3px ;
+	width: 32px;
+	height: 26px;
+}
+
