@@ -479,6 +479,7 @@ sup {
 .page-header {
 	background: url(../img/bg-page-header.jpg) no-repeat 50% 50% #110e0b;
 	min-height: 800px;
+	width: 1600px;
 }
 
 .page-header__container {
