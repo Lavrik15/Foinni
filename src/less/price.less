@@ -1,0 +1,59 @@
+.price {
+  .container();
+  margin-bottom: 130px;
+}
+.price-col {
+  display: inline-table;
+  text-align: center;
+  margin-right: 20px;
+}
+.price-col:hover {
+  box-shadow: 0px 0px 0px 1px @global-main-color;
+  .price-col__title {
+    box-shadow: 0px 0px 0px 4px @bg-color;
+    color: @global-main-color;
+  }
+  .price-col__header {
+    box-shadow: 0px 0px 0px 1px lighten(@global-main-color, 10%);
+    background: @global-main-color;
+  }
+  .btn-table {
+    background: @global-main-color;
+    box-shadow: none;
+  }
+}
+.price-col th, .price-col td {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 36px;
+  color: @gray;
+}
+.price-col__header {
+  width: 270px;
+  height: 90px;
+  box-shadow: 0px 0px 0px 1px @gray;
+}
+.price-col__title {
+  padding-bottom: 14px;
+}
+.first-string {
+  padding-top: 40px;
+}
+.price-upper {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: @gray;
+}
+.price-cost {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 36px;
+  color: @gray;
+}
+.price-col__header th {
+  font-weight: 400;
+  color: @gray;
+  font-size: 18px;
+  line-height: 34px;
+}

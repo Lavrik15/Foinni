@@ -1,7 +1,7 @@
 .meetUs {
   width: 1198px;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
 .meetUs-block {
   display: block;
@@ -40,12 +40,16 @@
   justify-content: space-between;
 }
 
-.meetUs-title {
-  color: @gray;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  margin-bottom: 50px;
+
+
+
+.meetUs-block:hover {
+  .meetUs-hide {
+    display: block;
+  }
+  .meetUs__profile {
+    display: none;
+  }
 }
 .meetUs-hide {
   display: none;
@@ -56,23 +60,6 @@
   background-color: @global-main-color;
   opacity: 0.9;
   z-index: 2;
-}
-
-.meetUs-block:hover {
-  .meetUs-hide {
-    display: block;
-    // &::after {
-    //   display: block;
-    //   content: "";
-
-    // }
-  }
-  .meetUs-hide:after {
-
-  }
-  .meetUs__profile {
-    display: none;
-  }
 }
 .meetUs-hide-profile {
   display: block;
@@ -88,4 +75,28 @@
 .meetUs-block__name-profile {
   font-weight: 400;
 }
-
+.meetUs-hide__social {
+  display: block;
+  position: absolute;
+  bottom: 24px;
+  width: 100%;
+  text-align: center;
+}
+.meetUs-hide__social-list {
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+.meetUs-hide__social li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+.meetUs-hide__social li a {
+  text-decoration: none;
+  color: white;
+}
