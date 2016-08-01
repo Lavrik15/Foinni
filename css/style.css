@@ -427,6 +427,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	background: #fffcf4;
+	min-width: 1200px;
 }
 
 .title {
