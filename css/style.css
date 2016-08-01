@@ -484,12 +484,11 @@ fieldset {
 .page-header {
 	background: url(../img/bg-page-header.jpg) no-repeat 50% 50% #110e0b;
 	min-height: 800px;
-	width: 1600px;
 }
 
 .page-header__container {
 	margin: 0 auto;
-	width: 1168px;
+	width: 1170px;
 }
 
 .page-header__container::after {
@@ -660,7 +659,7 @@ fieldset {
 
 .service {
 	margin: 0 auto;
-	width: 1168px;
+	width: 1170px;
 }
 
 .service__blocks {
@@ -729,7 +728,7 @@ fieldset {
 }
 
 .service__header--text {
-	width: 895px;
+	width: 680px;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 18px;
@@ -753,7 +752,7 @@ fieldset {
 
 .service__header {
 	margin: 0 auto;
-	width: 1168px;
+	width: 1170px;
 	padding-top: 60px;
 	margin-bottom: 75px;
 }
@@ -882,7 +881,7 @@ fieldset {
 
 .gallery {
 	margin: 0 auto;
-	width: 1168px;
+	width: 1170px;
 	margin-bottom: 100px;
 	overflow: hidden;
 }
@@ -943,7 +942,7 @@ fieldset {
 
 .price {
 	margin: 0 auto;
-	width: 1168px;
+	width: 1170px;
 	margin-bottom: 130px;
 }
 
@@ -1017,14 +1016,13 @@ fieldset {
 
 .form-wrapper {
 	margin: 0 auto;
-	width: 1168px;
+	width: 1170px;
 	text-align: center;
 	padding-top: 40px;
 }
 
 .form {
 	background: url(../img/bg-footer.jpg) no-repeat 50% 50%;
-	width: 1600px;
 	min-height: 500px;
 	background-size: cover;
 }
@@ -1145,5 +1143,172 @@ fieldset {
 
 .form-text {
 	margin-bottom: 30px;
+}
+
+.shortly {
+	background: #0b0a0a;
+}
+
+.shortly-wrapper {
+	margin: 0 auto;
+	width: 1170px;
+	padding-top: 40px;
+	padding-bottom: 75px;
+}
+
+.shortly-wrapper::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.shortly-about {
+	width: 315px;
+	float: left;
+	margin-right: 128px;
+}
+
+.shortly-title {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 36px;
+	color: white;
+	margin-top: 0;
+}
+
+.sortly-about__text {
+	font-weight: 300;
+	color: #8f8e91;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.shortly-links {
+	width: 250px;
+	float: left;
+}
+
+.shortly-social {
+	float: left;
+	width: 250px;
+}
+
+.shortly-links ul {
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+	float: left;
+	width: 92px;
+}
+
+.shortly-links__list--menu li,
+.shortly-links__list--fast-link li {
+	display: block;
+}
+
+.shortly-links__list--menu li a,
+.shortly-links__list--fast-link li a {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 30px;
+	color: #8f8e91;
+	text-decoration: none;
+}
+
+.shortly-links__list--menu li a:hover,
+.shortly-links__list--fast-link li a:hover {
+	text-decoration: underline;
+}
+
+.shortly__subscribe-wrapper {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.shortly__subscribe-wrapper input[type="text"] {
+	width: 250px;
+	box-sizing: border-box;
+	background: transparent;
+	border: 1px solid #454546;
+	color: white;
+}
+
+.shortly__subscribe-wrapper input[type="text"]:focus {
+	outline: none;
+}
+
+.shortly__subscribe-input {
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.shortly-btn {
+	border: none;
+	width: 105px;
+}
+
+.social__list {
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+}
+
+.social__list li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.social__list li a {
+	display: block;
+}
+
+.social__list--facebook,
+.social__list--twitter,
+.social__list--google,
+.social__list--in {
+	height: 40px;
+	width: 40px;
+	box-sizing: border-box;
+	border: 2px solid #454546;
+	border-radius: 8px;
+	margin-right: 6px;
+	margin-bottom: 5px;
+}
+
+.social__list--facebook:hover,
+.social__list--twitter:hover,
+.social__list--google:hover,
+.social__list--in:hover {
+	border-color: #5e5e60;
+}
+
+.social__list--facebook {
+	background: url(../img/sprite/sprites-social.png) no-repeat;
+	background-position: 13px 6px;
+}
+
+.social__list--twitter {
+	background: url(../img/sprite/sprites-social.png) no-repeat;
+	background-position: -78px 8px;
+}
+
+.social__list--google {
+	background: url(../img/sprite/sprites-social.png) no-repeat;
+	background-position: -15px 8px;
+}
+
+.social__list--in {
+	background: url(../img/sprite/sprites-social.png) no-repeat;
+	background-position: -48px 6px;
+}
+
+@media srceen and (min-width: 1200px) {
+
+.service__header--text {
+	width: 895px;
+}
+
 }
 
