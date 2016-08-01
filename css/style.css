@@ -1299,6 +1299,42 @@ fieldset {
 	background-position: -48px 6px;
 }
 
+@media (min-width: 1020px) {
+
+.page-header__container {
+	width: 980px;
+}
+
+.page-header__slogan {
+	width: 980px;
+}
+
+.service {
+	width: 980px;
+}
+
+.service__header {
+	width: 980px;
+}
+
+.gallery {
+	width: 980px;
+}
+
+.price {
+	width: 980px;
+}
+
+.form-wrapper {
+	width: 980px;
+}
+
+.shortly-wrapper {
+	width: 980px;
+}
+
+}
+
 @media srceen and (min-width: 1200px) {
 
 .service__header--text {
