@@ -817,6 +817,14 @@ fieldset {
 	justify-content: space-between;
 }
 
+.meetUs-block:hover .meetUs-hide {
+	display: block;
+}
+
+.meetUs-block:hover .meetUs__profile {
+	display: none;
+}
+
 .meetUs-hide {
 	display: none;
 	width: 100%;
