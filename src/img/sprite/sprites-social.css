@@ -1,0 +1,28 @@
+.facebook, .google-plus, .linkedin, .twitter{
+	background: url(sprites.png) no-repeat;
+}
+
+.facebook{
+	background-position: 0 0;
+	width: 11px;
+	height: 22px;
+}
+
+.google-plus{
+	background-position: -25px -1px ;
+	width: 22px;
+	height: 19px;
+}
+
+.linkedin{
+	background-position: -55px 0;
+	width: 22px;
+	height: 21px;
+}
+
+.twitter{
+	background-position: -85px 0;
+	width: 22px;
+	height: 18px;
+}
+
