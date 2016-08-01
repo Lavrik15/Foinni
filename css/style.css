@@ -544,6 +544,8 @@ fieldset {
 
 .page-header__slogan {
 	text-align: center;
+	margin: 0 auto;
+	width: 1170px;
 }
 
 .page-header__slogan--1 {
@@ -813,14 +815,6 @@ fieldset {
 	flex-wrap: nowrap;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-}
-
-.meetUs-block:hover .meetUs-hide {
-	display: block;
-}
-
-.meetUs-block:hover .meetUs__profile {
-	display: none;
 }
 
 .meetUs-hide {

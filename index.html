@@ -76,8 +76,8 @@
   <section class="meetUs">
     <h2 class="title">Meet Us</h2>
     <div class="meetUs-blocks">
-      <div class="meetUs-block">
-        <div class="meetUs-hide">
+      <div  class="meetUs-block">
+        <div id="show" class="meetUs-hide">
           <div class="meetUs-hide__social">
             <ul class="meetUs-hide__social-list">
               <li><a href="#"><img src="img/behance.png" alt="behance"></a></li>
@@ -90,7 +90,7 @@
             <span class="meetUs-block__profession-profile">Photographer</span>
           </div>
         </div>
-        <div class="meetUs__hide-wrapper">
+        <div id="hidden" class="meetUs__hide-wrapper">
           <img src="img/meetUs1.jpg" alt="Junior front-end developer" class="meetUs-block__photo">
           <div class="meetUs__profile">
             <span class="meetUs-block__name">Abida Foinni</span>
@@ -376,6 +376,29 @@
 
 
 
+  <script src="js/jquery-3.1.0.js"></script>
+  <script>
+  $(document).ready( function() {
+    var displayOn = $("#hidden").click();
+    // var displayOff = $("#hidden").mouseout();
 
+
+    if(displayOn){
+      // $("#show").fadeIn("slow").animate( function(){
+      //   display: block;
+      // },"slow");
+      $("#hidden").fadeOut("slow");
+    }
+
+
+
+    // if(displayOff){
+    //    $("#show").fadeOut("slow").animate( function(){
+    //       display: none;
+    //     },"slow");
+    // }
+
+  });
+  </script>
   </body>
 </html>
